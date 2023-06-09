@@ -1,5 +1,6 @@
-import 'package:first_application/whatsapp.dart';
 import 'package:flutter/material.dart';
+
+import '../list_sepreta.demo.dart';
 
 void main() {
   runApp(
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Whatsapp(),
+      home: ListViewSeparatedDemo(),
     );
   }
 }

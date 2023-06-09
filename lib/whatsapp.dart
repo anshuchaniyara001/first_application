@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class Whatsapp extends StatelessWidget {
   const Whatsapp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -204,7 +205,7 @@ class Whatsapp extends StatelessWidget {
                   title: Text('vishal mavani'),
                   subtitle: Text('Hello'),
                   trailing: Text('9.00 am'),
-                ),
+                )
               ],
             ),
           ),
